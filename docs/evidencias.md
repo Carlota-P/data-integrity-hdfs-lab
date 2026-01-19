@@ -4,6 +4,11 @@ Incluye aquí (capturas o logs) con fecha:
 
 ## 1) NameNode UI (9870)
 - Captura con DataNodes vivos y capacidad
+- **Fecha y hora:** 2026-01-19, 19.36
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eea1c2a5-c633-4eb0-9535-e600b68cc700" />
+Se muestra la interfaz web del Namenode, podemos comprobar que en la sección de *In operation* se observan los **4 DataNodes activos**, y la capacidad disponible.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/921b0efe-1af1-4e71-ae3b-0e8e7c1a5c13" />
+Captura adicional del apartado *Overview* del NameNode.
 
 ## 2) Auditoría fsck
 - Enlace/captura de salida (bloques/locations)
