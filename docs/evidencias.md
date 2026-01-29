@@ -25,5 +25,7 @@ Captura adicional del apartado *Overview* del NameNode.
 - Evidencia de detección y de recuperación
 
 ## 5) Métricas
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7653e87f-da9a-421a-84de-e143bef0d2b5" />
+
 - Capturas de docker stats durante replicación/copia
 - Tabla de tiempos
