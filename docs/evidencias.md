@@ -13,6 +13,8 @@ Captura adicional del apartado *Overview* del NameNode.
 ## 2) Auditoría fsck
 - Enlace/captura de salida (bloques/locations)
 - Resumen (CORRUPT/MISSING/UNDER_REPLICATED)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7f3816e1-423b-4f23-a2ca-a76cef163ff6" />
+
 
 ## 3) Backup + validación
 - Inventario origen vs destino
