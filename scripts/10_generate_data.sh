@@ -10,7 +10,7 @@ YYYYMMDD="${DT//-/}"
 LOG_FILE="$DAY_DIR/logs_${YYYYMMDD}.log"
 IOT_FILE="$DAY_DIR/iot_${YYYYMMDD}.jsonl"
 
-LOG_MB=${LOG_MB:-300}
+LOG_MB=${LOGS_MB:-300}
 IOT_MB=${IOT_MB:-300}
 
 echo "[generate] DT=$DT"
