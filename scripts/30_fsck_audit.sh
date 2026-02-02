@@ -37,9 +37,6 @@ docker exec -it "$NN_CONTAINER" bash -lc "
   fi
 "
 
-# --- Resumen ---
-# Nota: Contamos ocurrencias de palabras clave en la salida fsck /data.
-# (Para la práctica suele ser suficiente como "conteo de incidencias".)
 docker exec -it "$NN_CONTAINER" bash -lc "
   set -e
   echo '[fsck] Generando resumen...'
