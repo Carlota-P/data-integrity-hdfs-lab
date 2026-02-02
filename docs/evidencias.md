@@ -13,19 +13,33 @@ Captura adicional del apartado *Overview* del NameNode.
 ## 2) Auditoría fsck
 - Enlace/captura de salida (bloques/locations)
 - Resumen (CORRUPT/MISSING/UNDER_REPLICATED)
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7f3816e1-423b-4f23-a2ca-a76cef163ff6" />
 
+Fsck de los logs del 2 febrero del 2026
+- Comando: DT=2026-01-29 ./30_fsck_audit.sh
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1b77c4f8-4dcb-4029-9855-81604a530b8b" />
 
 ## 3) Backup + validación
 - Inventario origen vs destino
 - Evidencias de consistencia (tamaños/rutas)
+Salida del comando:
+DT=2026-01-29 ./40_backup_copy.sh
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1036f3c7-6405-4e77-85b7-538b14bb2694" />
+
+Salida de:
+- DT=2026-01-29 ./50_inventory_compare.sh
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c808a77-df53-4ec4-815c-5d38d8ded7ea" />
+
 
 ## 4) Incidente + recuperación
 - Qué hiciste, cuándo y qué efecto tuvo
 - Evidencia de detección y de recuperación
 
-## 5) Métricas
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7653e87f-da9a-421a-84de-e143bef0d2b5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ff24987d-8653-420f-a574-6d16500ced03" />
 
+## 5) Métricas
 - Capturas de docker stats durante replicación/copia
 - Tabla de tiempos
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fdaa30ae-40f5-458b-9253-98413a456470" />
+
